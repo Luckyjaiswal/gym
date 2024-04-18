@@ -1,0 +1,146 @@
+.container-fluid{
+    /* background-color: hsl(180, 53%, 62%) ; */
+  
+    color: #f2f3f4;
+
+}
+#nav{  border: solid rgb(5, 5, 5) 1px;
+    background-color: hsla(0, 0%, 0%, 0.918);
+ 
+}
+ 
+body{
+    /* background-color: rgb(244, 245, 252) ; */
+}
+ 
+.resume{
+    color: rgb(214, 204, 204);
+    justify-content: space-between;
+    
+}
+.navbar a {
+     display: inline-block;
+     font-size: 25px;
+     color: #e7dddd;
+     text-decoration: none;
+     font-weight: 500;
+     margin-left: 35px;
+     transition: .3s;
+     opacity: 0;
+     animation: slideTop .5s ease forwards;
+      
+     
+}
+.nav{
+    position: fixed;
+    position: relative;
+    background-color: transparent;
+}
+ 
+#navbutton{
+    background-color: rgb(151, 64, 64);
+    color: orange;
+    border-color: orange;
+}
+#navbutton:hover {
+    color: rgb(145, 130, 130);
+    background-color: orange;
+}
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.alert {
+    /* padding: 20px;
+    background-color: #f44336; 
+    color: white;
+    margin-bottom: 15px; */
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 89%;
+    color: rgb(211, 13, 13);
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+
+  form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+  form h3{
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+  }
+  form button{
+    padding: 15px;
+    background: #ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0; 
+    border-radius: 30px;
+  }
+/* form on image */
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .one img{
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .one img{
+    width: 100%;
+  }
+
+  .one .alert{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-70%, -60%);
+  }
+ 
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #45d421;
+  }
